@@ -1,0 +1,106 @@
+.pose-validator {
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.pose-validator h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 16/9;
+}
+
+.webcam-video {
+  position: absolute;
+  width: 50% !important;
+  height: 100% !important;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+}
+
+.pose-canvas {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.instructions {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.instructions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructions li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.instructions li:before {
+  content: "•";
+  color: #4a90e2;
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .pose-validator {
+    padding: 1rem;
+  }
+  
+  .instructions {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #dc3545;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  border: 1px solid #dc3545;
+} 

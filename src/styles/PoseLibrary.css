@@ -1,0 +1,48 @@
+.pose-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pose-filter {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.pose-filter:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.no-poses-message {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  color: #666;
+  grid-column: 1 / -1;
+}
+
+/* Enhance existing styles */
+.poses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.pose-card {
+  transition: transform 0.2s ease;
+}
+
+.pose-card:hover {
+  transform: translateY(-5px);
+} 

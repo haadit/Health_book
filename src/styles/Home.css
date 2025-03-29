@@ -1,0 +1,189 @@
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+
+.poses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pose-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.pose-card:hover {
+  transform: translateY(-5px);
+}
+
+.pose-illustration {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1.5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.feature-list, .pose-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.feature-list li, .pose-benefits li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.feature-list li:before, .pose-benefits li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4a90e2;
+}
+
+.main-features, .featured-poses {
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.quick-stats {
+  padding: 4rem 2rem;
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eaeaea;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stat-value {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #4a90e2;
+  margin-bottom: 0.8rem;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .stat-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .stat-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .quick-stats {
+    padding: 2rem 1rem;
+  }
+  
+  .stat-value {
+    font-size: 2.4rem;
+  }
+  
+  .stat-label {
+    font-size: 1.1rem;
+  }
+}
+
+/* Add this if you have a dark background */
+.app {
+  background-color: #f5f7fa;
+}
+
+/* Animation for scroll reveal */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

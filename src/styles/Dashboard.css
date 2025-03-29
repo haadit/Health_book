@@ -1,0 +1,21 @@
+.dashboard-loading,
+.dashboard-error {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  margin: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-error {
+  color: #dc3545;
+  background-color: #fde8e8;
+}
+
+.no-data-message {
+  text-align: center;
+  color: #666;
+  padding: 1rem;
+  font-style: italic;
+} 
