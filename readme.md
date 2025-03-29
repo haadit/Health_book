@@ -54,16 +54,16 @@ HealthBook is a comprehensive healthcare platform designed to enhance both physi
 ## Screenshots
 
 ### 🧘 Yoga Pose Validation
-![Yoga Pose Validation](public\images\assets\ss1.png)
+![Yoga Pose Validation](public/images/assets/ss1.png)
 
 ### 🧠 Anxiety Analyzer
-![Anxiety Analyzer](public\images\assets\ss2.png)
+![Anxiety Analyzer](public/images/assets/ss2.png)
 
 ### 🧘‍♂️ Meditation Assistance
-![Meditation Assistance](public\images\assets\ss3.png)
+![Meditation Assistance](public/images/assets/ss3.png)
 
 ### 💰 Funding Feature
-![Funding Feature](public\images\assets\ss4.png)
+![Funding Feature](public/images/assets/ss4.png)
 
 
 ## Contribution
