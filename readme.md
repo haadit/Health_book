@@ -51,6 +51,21 @@ HealthBook is a comprehensive healthcare platform designed to enhance both physi
 - **AI & ML:** TensorFlow.js for yoga pose validation, sentiment analysis for anxiety detection
 - **Payment Gateway:** Stripe for funding feature
 
+## Screenshots
+
+### 🧘 Yoga Pose Validation
+![Yoga Pose Validation](public\images\assets\ss1.png)
+
+### 🧠 Anxiety Analyzer
+![Anxiety Analyzer](public\images\assets\ss1.png)
+
+### 🧘‍♂️ Meditation Assistance
+![Meditation Assistance](public\images\assets\ss1.png)
+
+### 💰 Funding Feature
+![Funding Feature](public\images\assets\ss1.png)
+
+
 ## Contribution
 We welcome contributions to enhance HealthBook. To contribute:
 1. Fork the repository.
